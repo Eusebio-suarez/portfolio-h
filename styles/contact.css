@@ -5,20 +5,12 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    color: #d3b900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d3b900;
 }
 
 header{
     width: 500px;
-}
-
-main>img{
-    margin-top: 50px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
 ul{
@@ -40,9 +32,22 @@ a:hover{
     background-color: #2a55a3;
     transition:all 0.4s;
 }
+img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
 
+img:hover{
+    scale: 105%;
+    transition: all 0.5s;
+}
 
-p{
-    color: #fff;
-    max-width: 500px;
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
