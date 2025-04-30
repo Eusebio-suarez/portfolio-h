@@ -1,0 +1,11 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    background-color: #107566;
+}
+
+main>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
