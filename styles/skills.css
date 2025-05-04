@@ -6,8 +6,7 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #d3b900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
     overflow-x: hidden;
 }
 
@@ -58,7 +57,7 @@ a:hover{
 
 p{
     color: #fff;
-    max-width: 380px;
+    max-width: 500px;
 }
 
 .menu{
@@ -76,4 +75,39 @@ p{
 
 ul:hover .option {
     opacity: 1;
+}
+
+main{
+    max-width: 350px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    color: #F4F6F7;
+}
+
+.skills{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #3C4F5C;
+    padding-top: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.2s;
+}
+
+.skill:hover{
+    scale: 1.05;
+    transition-duration: 0.2s;
 }

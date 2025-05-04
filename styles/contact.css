@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     text-align: center;
     color: #d3b900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
     overflow-x: hidden;
 }
 
@@ -65,7 +65,7 @@ a:hover{
 
 p{
     color: #fff;
-    max-width: 380px;
+    max-width: 500px;
 }
 
 .menu{
