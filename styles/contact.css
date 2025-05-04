@@ -87,9 +87,12 @@ ul:hover .option {
 
   
 .formContainer {
-    width: 300px;
+    width: 315px;
     background-color: #1e2a3a;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
     border-radius: 12px;
     margin-bottom: 25px;
 }
@@ -101,6 +104,7 @@ ul:hover .option {
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
