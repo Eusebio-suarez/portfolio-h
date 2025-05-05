@@ -125,7 +125,8 @@ ul:hover .option {
     border-radius: 10px;
     background-color: transparent;
     border: #fff solid 1px;
-    color:#fff
+    color:#fff;
+    resize: none;
 }
 
 #enviar {
